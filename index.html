@@ -1,50 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Сайт Анны Лукиной</title>
+  <title>Семантическая верстка</title>
 </head>
-
 <body>
-  <header class="header">
-    Сайт Анны Лукиной
-    <p>
-      Завари себе чайку и скушай эту булку
-    </p>
+  <header>
+    <h1>Сайт-визитка Лукиной Анны</h1>
+    <p>Завари себе кофию да надкуси булочку, почитывая мой блог</p>
     <nav>
       <ul>
-        <li><a href="./blog.html">Блог</a> </li>
-        <li>Проекты</li>
-        <li>Доклады</li>
-        <li>Резюме</li>
+        <li><a href="./index.html">Главная</a></li>
+        <li><a href="./blog.html">Блог</a></li>
+        <li><a href="./projects.html">Проекты</a></li>
+        <li><a href="./presentations.html">Доклады</a></li>
+        <li><a href="./resume.html">Резюмешечка для работодателей</a></li>
+
       </ul>
     </nav>
-
   </header>
-
-  <main class="main">
-    <p>
-      Тут кратко обо мне, кто я такой по жизни вообще
-    </p>
-
-    <img src="./img/my_photo.png" alt="Мое фото" width="200" height="200">
+  <main>
+    <aside>
+      <section>
+        <h2>Боковой блок</h2>
+        <p>Пусть тут будет список моих популярных статей</p>
+      </section>
+    </aside>
+    <article>
+      <section>
+        <h2>Первый блок</h2>
+        <p>Тут будет краткая информация обо мне</p>
+        <img width="200" height="200" src="./img/my_photo.png" alt="Воть моя фотокарточка">
+      </section>
+    
+      <section>
+        <h2>Второй блок</h2>
+        <p>Пока не придумала о чем он будет</p>
+      </section>
+    </article>
   </main>
-
-  <aside class="aside">
-    <section>Статья 1</section>
-    <section>Статья 2</section>
-    <section>Статья 3</section>
-
-  </aside>
-
-  <footer class="footer">
-    <a href="">ТГ</a>
-    <a href="https://github.com/raskolnikova">Github</a>
-    <a href="">Habr</a>
+  <footer>
+    <p>А сюда я добавлю ссылки на мои соцсети и гитхаб</p>
+    <ol>
+      <li><a href="">Гитхаб</a></li>
+      <li><a href="">Телеграмм</a></li>
+      <li><a href="">Линкидин</a></li>
+    </ol>
   </footer>
-
 </body>
-
 </html>
