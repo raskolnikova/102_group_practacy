@@ -123,3 +123,8 @@ flex-wrap: wrap;
     flex-direction: column;
   }
 }
+
+/* переопределение цвета в бутстрапе */
+/* .list-group-item-primary {
+  background-color: red !important;
+} */
