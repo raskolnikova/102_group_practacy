@@ -14,11 +14,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
-
-  <header>
+  <!-- <a class="waves-effect waves-light btn">
+    <i class="material-icons">
+      pets
+    </i>
+    button</a> -->
+  <!-- <header>
     <nav>
       <ul class="navigation">
         <li><a href="./index.html">Главная</a></li>
@@ -31,27 +44,69 @@
     </nav>
     <h1>Сайт-визитка Лукиной Анны</h1>
     <p>Завари себе кофию да надкуси булочку, почитывая мой блог</p>
-  </header>
+  </header> -->
+
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Главная</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="./index.html">Блог</a></li>
+        <li><a href="./blog.html">Проекты</a></li>
+        <li><a href="./projects.html">Доклады</a></li>
+        <li><a href="./presentations.html">Резюмешечка для работодателей</a></li>
+
+      </ul>
+    </div>
+  </nav>
 
   <main class="container">
     <aside class="aside_element">
-      <section>
+
+        <div class="collection with-header">
+        <li class="collection-header"><h4>Боковой блок</h4></li>
+        <li class="collection-item ">Статья о котиках и способах их дрессировки</li>
+        <li class="collection-item">Статья о тестах во фронте</li>
+        <li class="collection-item">Статья о флексбоксах</li>
+      </div>
+
+      <!-- <section>
         <h2>Боковой блок</h2>
         <p class="aside_article">Статья о котиках и способах их дрессировки</p>
         <p class="aside_article">Статья о тестах во фронте</p>
         <p class="aside_article">Статья о флексбоксах</p>
-      </section>
+      </section> -->
     </aside>
 
     <article class="blocks_element">
       <section class="block">
-        <h2>Первый блок</h2>
+        
+        <div class="row">
+          <div class="col s12 ">
+            <div class="card">
+              <div class="card-image">
+                <img src="./img/my_photo.png">
+                <span class="card-title">Первый блок</span>
+              </div>
+              <div class="card-content">
+                <p>Тут будет краткая информация обо мне</p>
+              </div>
+              <div class="card-action">
+              <p>Например что я занимаюсь фронтендом больше пяти лет, а разработкой уже 10 лет</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <h2>Первый блок</h2>
         <p>Тут будет краткая информация обо мне</p>
         <p>Например что я занимаюсь фронтендом больше пяти лет, а разработкой уже 10 лет</p>
-        <img width="200" height="200" src="./img/my_photo.png" alt="Воть моя фотокарточка">
+        <img width="200" height="200" src="./img/my_photo.png" alt="Воть моя фотокарточка"> -->
+
+
       </section>
 
-      <section class="block">
+      <section class="orange lighten-2">
         <h2>Второй блок</h2>
         <p>Пока не придумала о чем он будет</p>
       </section>
@@ -59,13 +114,38 @@
 
   </main>
 
-  <footer class="footer">
+
+  <!-- <footer class="footer">
     <p>А сюда я добавлю ссылки на мои соцсети и гитхаб</p>
     <ol class="navigation">
       <li><a href="https://github.com/raskolnikova">Гитхаб</a></li>
       <li><a href="">Телеграмм</a></li>
       <li><a href="">Линкидин</a></li>
     </ol>
+  </footer> -->
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <p class="grey-text text-lighten-4">А сюда я добавлю ссылки на мои соцсети и гитхаб</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/raskolnikova">Гитхаб</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Телеграмм</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Линкидин</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2025 Copyright Text
+      </div>
+    </div>
   </footer>
 </body>
 
